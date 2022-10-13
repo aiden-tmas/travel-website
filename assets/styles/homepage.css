@@ -1,0 +1,120 @@
+.page-container .main-body-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.page-container .navbar-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(219, 114, 48);
+}
+
+.navbar-container {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-wrapper {
+  padding-left: 15px;
+}
+
+.main-body-container .hero-container {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+}
+
+.hero-container .background-image {
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  background-image: url(/assets/images/eva-darron-oCdVtGFeDC0-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.main-body-container .text-body-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-body-container .text-body-wrapper .body-wrapper .text-body {
+  padding-top: 50px;
+}
+
+.main-body-container .text-body-wrapper .body-wrapper .reservations-button {
+  padding-top: 50px;
+}
+
+.text-body-wrapper .main-header {
+  font-size: 5rem;
+  color: rgb(219, 114, 48);
+}
+
+.body-wrapper {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-body-wrapper button:hover {
+  background-color: rgb(219, 114, 48);
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-container {
+  display: flex;
+  min-height: 60px;
+}
+
+.footer-container .footer-wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+  background-color: rgb(219, 114, 48);
+}
+
+.footer-wrapper .footer-right-column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.footer-wrapper .footer-left-column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}

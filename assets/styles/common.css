@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 0.6rem;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: rgb(219, 114, 48);
+  border: 1px solid rgb(209, 99, 31);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: white;
+  background-color: rgb(224, 161, 121);
+  border: 1px solid white;
+}
